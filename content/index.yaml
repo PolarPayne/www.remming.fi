@@ -1,0 +1,38 @@
+content:
+
+- type: html
+  value: |
+    <h1 style="margin-bottom: 0">maximilian remming</h1>
+- type: md
+  value: this is professional me for the not-so-professional me [click here](https://twitter.com/maxifi)
+
+# --- ELSEWHERE ---
+
+- type: h
+  value: elsewhere on the web
+- type: md
+  value: |
+    * find me on my favourite social media, twitter, as [@maxifi](https://twitter.com/maxifi)
+    * in github i am [polarpayne](https://github.com/polarpayne), some code lies there
+    * i guess i also use [linkedin](https://linkedin.com/in/maximilian-remming-3622b256), because working is cool
+
+# --- CREATIONS ---
+
+- type: h
+  value: stuff i have created
+- type: md
+  value: |
+    * [dice roller](https://dice.remming.fi), a versatile dice roller,
+    documentation still incomplete, more features and documentation might come
+    at some point
+    * [laserkukkahattu](/laserkukkahattu), a small fun game,
+    winner of tko-äly's 2016 january game jam. has the most awesome soundtrack ever
+
+# --- CV ---
+
+- type: h
+  value: cv
+- type: md
+  value: >
+    if you are intersted on what i have done in the past
+    and what i am good at [checkout my cv](/cv)

@@ -1,0 +1,38 @@
+url: hi_mom
+title: Hi mom!
+released: no
+release_date: 2017-12-13
+description: >
+  In this blog text Max says hello to his mother.
+content:
+
+- How are you doing!
+- <h1>Where are we going?</h1>
+
+- value: "The following items are very important:"
+  bottom_room: no
+
+- type: ul
+  value:
+  - hi
+  - mom
+
+- type: img
+  value: /static/puppy.jpg
+  thumbnail: /static/puppy_hor.jpg
+
+- type: html
+  value: |
+    <h1>HI MOM</h1>
+
+- type: img
+  value: /static/puppy.jpg
+  thumbnail: /static/puppy_hor.jpg
+
+- type: md
+  value: |
+    # header 1
+    * list items
+    * more items
+
+    [a link](https://google.com)

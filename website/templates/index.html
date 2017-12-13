@@ -1,0 +1,15 @@
+{% from "macros.html" import render_content %}
+
+{% extends "base.html" %}
+
+{% block title %}maximilian remming{% endblock %}
+
+{% block navigate_to %}/blog{% endblock %}
+{% block navigate_text %}blog{% endblock %}
+{% block catchphrase %}this is maximilian{% endblock %}
+
+{% block content %}
+
+{{ render_content(content) }}
+
+{% endblock %}

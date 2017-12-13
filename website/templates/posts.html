@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}this is max{% endblock %}
+
+{% block navigate_to %}/{% endblock %}
+{% block navigate_text %}index{% endblock %}
+{% block catchphrase %}this is max{% endblock %}
+
+{% block content %}
+
+<h1>blog posts</h1>
+{% for post in posts %}
+    <p><a href="{{ post.url }}">{{ post.title }}</a> | {{ post.release_date }}</p>
+    <p{% if not loop.last %} class="bottom-room"{% endif %}>{{ post.description|truncate(length=140) }}</p>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% from "macros.html" import render_content %}
+
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block navigate_to %}/blog{% endblock %}
+{% block navigate_text %}blog{% endblock %}
+{% block catchphrase %}{{ catchphrase|default("somebody forgot the catchphrase") }}{% endblock %}
+
+{% block content %}
+
+<h1 style="margin-bottom: 0">{{ title }}</h1>
+<p style="text-align: center" class="bottom-room">Released: {{ release_date }}</p>
+{{ render_content(content) }}
+
+{% endblock %}

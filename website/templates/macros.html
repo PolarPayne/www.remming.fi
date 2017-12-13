@@ -1,0 +1,31 @@
+{% macro render_content(content) %}
+{% for p in content %}
+<div class="{% if not loop.last and p.bottom_room|default(True) %}bottom-room{% endif %}">
+
+    {% if p.type is undefined and p.value is undefined %}
+        <p>{{ p }}</p>
+    {% elif p.type is undefined %}
+        <p>{{ p.value }}</p>
+    {% elif p.type == "ul" %}
+        <ul>
+        {% for i in p.value %}
+        <li>{{ i }}</li>
+        {% endfor %}
+        </ul>
+    {% elif p.type == "html" %}
+        {{ p.value|safe }}
+    {% elif p.type == "img" %}
+        <a href="{{ p.value }}" data-lightbox="images" data-title="{{ p.alt }}">
+            <img src="{{ p.thumbnail|default(p.value) }}">
+        </a>
+    {% elif p.type == "md" %}
+        {{ p.value|md }}
+    {% elif p.type == "h" %}
+        <h2>{{ p.value }}</h2>
+    {% else %}
+        <p>{{ p.value }}</p>
+    {% endif %}
+
+</div>
+{% endfor %}
+{% endmacro %}

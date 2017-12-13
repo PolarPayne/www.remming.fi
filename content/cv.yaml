@@ -1,0 +1,143 @@
+content:
+
+- type: html
+  value: |
+    <h1 style="margin-bottom: 0">maximilian remming</h1>
+    <p style="text-align: center">maxremming at gmail.com</p>
+
+- i am open-minded, and a hard worker, always looking to learn new.
+
+- i love to solve problems, and i am not afraid to try new things. elegant and simple code is what i strive for, with security and performance always in my mind.
+
+# --- SKILLS ---
+
+- type: h
+  value: skills
+
+- 8+ years of experience with python
+- value: experienced with
+  bottom_room: no
+- type: ul
+  value:
+  - ansible, terraform, docker, aws
+  - javascript, java, c
+- fast learner
+
+# --- WORK EXPERIENCE ---
+
+- type: h
+  value: work_experience
+
+- value: 2017/9 - present
+  bottom_room: no
+- value: reaktor innovations oy, system specialist
+
+- value: 2017/3 - 2017/9
+  bottom_room: no
+- value: gofore oy, system specialist
+
+- value: 2016/5 - 2017/3
+  bottom_room: no
+- value: kuka helsinki oy, software developer
+  bottom_room: no
+- type: ul
+  value:
+  - programming with python and javascript
+  - maintenance of the old version, design and programming of the new version
+
+- value: 2014/1 - 2015/9
+  bottom_room: no
+- value: mcdonald's iso-roobertinkatu, part-time restaurant worker
+  bottom_room: no
+- type: ul
+  value:
+  - customer service, preparing food, and maintaining cleanliness
+
+- value: 2012/5 - 2012/11
+  bottom_room: no
+- value: fantomatico, software developer
+  bottom_room: no
+- type: ul
+  value:
+  - developing with adobe flash and actionscript 3
+  - batch processing and editing images in adobe photoshop
+  - batch processing of textual data in xml format
+
+- value: 2011/6 - 2011/7
+  bottom_room: no
+- value: fantomatico, summer assistant
+  bottom_room: no
+- type: ul
+  value:
+  - editing photos in adobe photoshop, and debugging
+
+# --- OTHER EXPERIENCE ---
+
+- type: h
+  value: other_experience
+
+- value: 2014 - 2017
+  bottom_room: no
+- value: tko-äly ry
+  bottom_room: no
+- type: ul
+  value:
+  - member of the board, 2016 & 2017
+  - culture and free time representative, 2016 & 2017
+  - active member from 2014
+
+- value: 2015/4
+  bottom_room: no
+- value: hsy smartwater hackathon
+  bottom_room: no
+- type: md
+  value: |
+    * part of the five person winning team
+    * [article in finnish](https://www.hsy.fi/fi/tietoa-hsy/uutishuone/2016/Sivut/Opiskelijat-ratkoivat-jatevesipulmaa-HSYn-koodausmaratonilla.aspx)
+
+- value: 2015/11
+  bottom_room: no
+- value: ultrahack, volunteer
+  bottom_room: no
+- type: ul
+  value:
+  - setting up and maintaining, wired and wireless internet access
+  - helping with whatever else needed helping
+
+- value: 2013/7 - 2013/12
+  bottom_room: no
+- value: military service, communications and engineering
+  bottom_room: no
+- type: ul
+  value:
+  - setting up and maintaining communication links
+
+# --- EDUCATION ---
+
+- type: h
+  value: education
+
+- value: 2013 - present
+  bottom_room: no
+- university of helsinki, computer science
+
+- value: 2010 - 2013
+  bottom_room: no
+- helsinki upper secondary school of visual arts
+
+- value: languages
+  bottom_room: no
+- type: ul
+  value:
+  - finnish, fluent
+  - english, excellent
+
+# --- HOBBIES ---
+
+- type: h
+  value: hobbies
+
+- tabletop rpg gaming and game mastering
+- movie enthusiast
+- sipping whisky (yamazaki and caol ila being my current favourites)
+- avid cyclist (but not during winter)

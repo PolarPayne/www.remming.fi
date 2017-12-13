@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/static/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <link rel="stylesheet" type="text/css" href="/static/lightbox/lightbox.min.css">
+</head>
+<body>
+    <div id="content">
+        <p><a href="{% block navigate_to %}{% endblock %}">{% block navigate_text %}{% endblock %}</a> | {% block catchphrase %}{% endblock %}</p>
+        <hr>
+        {% block content %}{% endblock content %}
+    </div>
+
+<script src="/static/lightbox/lightbox-plus-jquery.min.js"></script>
+<script>
+lightbox.option({
+    "fadeDuration": 200,
+    "resizeDuration": 200
+})
+</script>
+</body>
+</html>
