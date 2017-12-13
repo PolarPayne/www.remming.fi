@@ -8,7 +8,7 @@ build:
 	cp -r laserkukkahattu out
 
 .PHONY: install
-install: guard-LOCATION build
+install: guard-LOCATION
 	cp -r out/* ${LOCATION}
 
 .PHONY: dev
